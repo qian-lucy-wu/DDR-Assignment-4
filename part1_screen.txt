@@ -1,0 +1,360 @@
+5A. Print out the entire Jsoup/BeautifulSoup document of your profile page.
+
+
+
+
+
+doc3
+Out[228]: 
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>My Profile</title>
+<meta content="width=1080" name="viewport"/>
+<meta content="ie=edge" http-equiv="x-ua-compatible"/>
+<link href="/favicon.ico" rel="shortcut icon"/>
+<link href="/favicon_16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/favicon_64.png" rel="icon" sizes="64x64" type="image/png"/>
+<link href="/favicon_196.png" rel="icon" sizes="196x196" type="image/png"/>
+<link href="/favicon.svg" rel="icon" sizes="any" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link color="#1e2837" href="/static/img/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="Planespotters" name="application-name"/>
+<meta content="#1e2837" name="theme-color"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-NMJZKP0929"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('consent', 'default', {
+		'ad_storage': 'denied',
+		'analytics_storage': 'denied',
+		'wait_for_update': 1500 //milliseconds
+	});
+	gtag('set', 'ads_data_redaction', true);
+	gtag('js', new Date());
+	gtag('config', 'G-NMJZKP0929', { 'anonymize_ip': true });
+</script>
+<script async="async" src="https://cdn-a.yieldlove.com/v2/yieldlove.js?planespotters.net"></script>
+<link href="https://static4.planespotters.net/css/theme-4c730e4d48.min.css" rel="stylesheet" type="text/css">
+<script src="https://static4.planespotters.net/js/planespotters-2e9a2d4db4.min.js"></script>
+</link></head>
+<body class="bootstrap">
+<header class="page__header">
+<nav class="header__menu">
+<a class="header__logo" href="/" name="top"></a>
+<ul>
+<li class="submenu">
+<a href="/photo/search">Photos</a>
+<ul>
+<li><a href="/photos/latest">Latest Additions</a></li>
+<li><a href="/photos/popular">Most Popular</a></li>
+<li><a href="/photos/editorsChoice">Editor's Choice</a></li>
+<li><a href="/photos/favorited">User Favorites</a></li>
+<li><a href="/photos">Photo Search</a></li>
+<li class="divider"></li>
+<li><a href="/photo/upload">Upload Your Photos</a></li>
+</ul>
+</li>
+<li class="submenu">
+<a href="/production-list/index">Aircraft</a>
+<ul>
+<li><a href="/production-list/index">Production Lists</a></li>
+<li><a href="/deliveries">Latest Deliveries</a></li>
+<li class="divider"></li>
+<li><a href="/special/boeing-737-max-grounding">Boeing 737 MAX Special</a></li>
+<li><a href="/special/boeing-787">Boeing 787 Special</a></li>
+<li><a href="/special/an225">Antonov An-225 Tribute</a></li>
+</ul>
+</li>
+<li class="submenu">
+<a href="/airlines">Airlines</a>
+<ul>
+<li><a href="/airlines">Airline Index</a></li>
+<li><a href="/airlines/country">Airlines by Country</a></li>
+</ul>
+</li>
+</ul>
+<form accept-charset="utf-8" action="/search" class="page__header_search" method="get">
+<input autocomplete="off" id="q" name="q" type="text"/>
+<button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<ul>
+<li class="submenu submenu-left">
+<a class="header__menu_profile_icon" href="/member/profile">
+<i class="fa fa-user-o"></i>
+</a>
+<ul>
+<li><a href="/member/profile">Profile</a></li>
+<li><a href="/member/profile/settings">Settings</a></li>
+<li><a class="" href="/member/photo/screening">Screening Info</a></li>
+<li><a href="/member/photo/stats">Photo Stats</a></li>
+<li><a href="/photos/favorites">My Favorites</a></li>
+<li><a href="/photos/gallery/lucytest">Personal Gallery</a></li>
+<li class="divider"></li>
+<li><a href="/user/logout">Log Out</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</header>
+<main class="" id="content">
+<div class="container950 padding-vertical-30">
+<div class="flex-row">
+<div class="flex-column flex-300">
+<div class="margin-30 text-center">
+<img class="user__profile_picture" height="200" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23cccccc%22%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22550%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Open%20Sans%2C%20Verdana%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EQ%3C%2Ftext%3E%3C%2Fsvg%3E" width="200"/> </div>
+<div style="width: 200px; margin-left: auto; margin-right: auto;">
+<a class="btn btn-flat-default-new btn-md btn-display-block member_profile__photo_upload" href="/member/profile/photo"><i class="fa fa-upload"></i> Upload New Image</a>
+</div>
+</div>
+<div class="flex-column">
+<h1 class="headline-spacer">Profile</h1>
+<table class="table-light">
+<tr>
+<th>Name</th>
+<td>QW</td>
+<td><a class="btn btn-flat-default btn-xs" href="/member/profile/name"><i class="fa fa-pencil"></i> Edit</a></td>
+</tr>
+<tr>
+<th>Username</th>
+<td>lucytest</td>
+<td><a class="btn btn-flat-default btn-xs" href="/member/profile/username"><i class="fa fa-pencil"></i> Edit</a></td>
+</tr>
+<tr>
+<th>E-Mail</th>
+<td>wq2000wx@gmail.com</td>
+<td><a class="btn btn-flat-default btn-xs" href="/member/profile/email"><i class="fa fa-pencil"></i> Edit</a></td>
+</tr>
+<tr>
+<th>Member since</th>
+<td>10 February 2023</td>
+<td></td>
+</tr>
+</table>
+<div class="margin-30">
+<h6 class="heading-new-muted text-uppercase">Password</h6>
+<a class="btn btn-flat-default-new btn-md" href="/member/profile/password">Change Password</a>
+</div>
+<div class="margin-30">
+<h6 class="heading-new-muted text-uppercase">Settings</h6>
+<a class="btn btn-flat-default-new btn-md" href="/member/profile/settings"><i class="fa fa-cog"></i> View Settings</a>
+</div>
+<h1 class="headline-spacer margin">Photos</h1>
+<div class="padding-20 flex-row">
+<div class="flex-column stats-box text-center">
+<h4>
+<a data-toggle="tooltip" href="/photos/gallery/lucytest" title="0 Photos online">
+<i class="fa fa-camera"></i> 0                        </a>
+</h4>
+</div>
+<div class="flex-column stats-box text-center">
+<h4>
+<a data-toggle="tooltip" href="/member/photo/screening" title="0 Photos in screening">
+<i class="fa fa-hourglass-half"></i> 0                        </a>
+</h4>
+</div>
+<div class="flex-column stats-box text-center">
+<h4>
+<a data-toggle="tooltip" href="/member/photo/stats" title="0 Total Views">
+<i class="mi mi-remove_red_eye"></i> 0                        </a>
+</h4>
+</div>
+<div class="flex-column stats-box text-center">
+<h4>
+<a data-toggle="tooltip" href="/photos/gallery/lucytest?special=favorited" title="0 Photo Favorites">
+<i class="fa fa-star-o"></i> 0                        </a>
+</h4>
+</div>
+<div class="flex-column">
+<a class="btn btn-flat-default-new btn-md" href="/member/photo/stats"><i class="fa fa-bar-chart"></i> Photo Stats</a>
+</div>
+</div>
+<div class="margin-20">
+<h6 class="heading-new-muted text-uppercase">Upload &amp; Screening</h6>
+<table class="table-light">
+<tr>
+<td width="30%">
+<a class="btn btn-flat-default-new btn-md btn-display-block" href="/photo/upload"><i class="fa fa-plus"></i> Upload Photos</a>
+</td>
+<td>
+                            Upload new photos
+                        </td>
+</tr>
+<tr>
+<td>
+<a class="btn btn-flat-default-new btn-md btn-display-block" href="/member/photo/screening"><i class="fa fa-info-circle"></i> Screening Info</a>
+</td>
+<td>
+                            Follow along with the screening progress and check screening results.
+                        </td>
+</tr>
+<tr>
+<td>
+<a class="btn btn-flat-default-new btn-md btn-display-block" href="/photo/reupload"><i class="fa fa-repeat"></i> Re-Upload Photos</a>
+</td>
+<td>
+                            Re-upload better versions of already accepted photos
+                        </td>
+</tr>
+</table>
+</div>
+<div class="margin-20">
+<h6 class="heading-new-muted text-uppercase">Manage Photos</h6>
+<table class="table-light">
+<tr>
+<td width="30%">
+<a class="btn btn-flat-default-new btn-md btn-display-block" href="/photos/gallery/lucytest?watermark=0"><i class="fa fa-search"></i> Watermark</a>
+</td>
+<td>
+                                Find photos without watermark
+                            </td>
+</tr>
+<tr>
+<td width="30%">
+<a class="btn btn-flat-default-new btn-md btn-display-block" href="/photos/favorites"><i class="fa fa-star-o"></i> My Favorites</a>
+</td>
+<td>
+                            Show and manage my favorites
+                        </td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="page__footer">
+<div class="container950">
+<div class="grid-4">
+<div>
+<h6><a href="/">Home</a></h6>
+<h6><a href="/about">About</a></h6>
+<ul class="list-unstyled">
+<li><a href="/about">About Us</a></li>
+<li><a href="/help/contact">Contact</a></li>
+</ul>
+</div>
+<div>
+<h6>Aircraft</h6>
+<ul class="list-unstyled">
+<li><a href="/production-list/index">Production Lists</a></li>
+<li><a href="/deliveries">Deliveries</a></li>
+</ul>
+<h6 class="margin-top-20">Airlines</h6>
+<ul class="list-unstyled">
+<li><a href="/airlines">Index</a></li>
+<li><a href="/airlines/country">Country List</a></li>
+</ul>
+</div>
+<div>
+<h6>Photos</h6>
+<ul class="list-unstyled">
+<li><a href="/photos/latest">Latest Additions</a></li>
+<li><a href="/photos/top/24hrs">Most Popular Last 24hrs</a></li>
+<li><a href="/photos/editorsChoice">Editor's Choice</a></li>
+<li><a href="/photo/upload">Upload Your Photos</a></li>
+</ul>
+<h6 class="margin-top-20"><a href="/photo/api">Photo API</a></h6>
+</div>
+<div>
+<h6>Legal</h6>
+<ul class="list-unstyled">
+<li><a href="/legal/termsofuse">Terms of Use</a></li>
+<li><a href="/legal/privacypolicy">Privacy Policy</a></li>
+<li><a href="/legal/cookiepolicy">Cookie Policy</a></li>
+<li><a class="" href="javascript:void(0);" onclick="window.yieldlove_cmp.loadPrivacyManager();">Privacy Manager</a></li>
+</ul>
+</div>
+</div>
+<div class="margin-top-20">
+<h6><a href="/photos/latest">Latest Photos</a></h6>
+<div class="photo_large__nav_list flex-row flex-left">
+<a class="photo_large__nav_list_item" href="/photo/1387227/n322sg-atlas-air-boeing-747-481?sid=15e3da94d8354202bd33cad5fff47064&amp;sc=0"><img alt="N322SG | Atlas Air | Boeing 747-481" src="https://t.plnspttrs.net/25726/1387227_3c6d3f2368_t.jpg"/></a>
+<a class="photo_large__nav_list_item" href="/photo/1387226/n720fr-frontier-airlines-airbus-a321-211wl?sid=15e3da94d8354202bd33cad5fff47064&amp;sc=1"><img alt="N720FR | Frontier Airlines | Airbus A321-211(WL)" src="https://t.plnspttrs.net/03113/1387226_58e2106a04_t.jpg"/></a>
+<a class="photo_large__nav_list_item" href="/photo/1387225/n389fr-frontier-airlines-airbus-a320-251n?sid=15e3da94d8354202bd33cad5fff47064&amp;sc=2"><img alt="N389FR | Frontier Airlines | Airbus A320-251N" src="https://t.plnspttrs.net/39789/1387225_014d981c41_t.jpg"/></a>
+<a class="photo_large__nav_list_item" href="/photo/1387224/c-gezn-air-transat-airbus-a321-211?sid=15e3da94d8354202bd33cad5fff47064&amp;sc=3"><img alt="C-GEZN | Air Transat | Airbus A321-211" src="https://t.plnspttrs.net/33737/1387224_5a04370e92_t.jpg"/></a>
+<a class="photo_large__nav_list_item" href="/photo/1387223/n376dn-delta-air-lines-airbus-a321-211wl?sid=15e3da94d8354202bd33cad5fff47064&amp;sc=4"><img alt="N376DN | Delta Air Lines | Airbus A321-211(WL)" src="https://t.plnspttrs.net/43884/1387223_08eb6e820f_t.jpg"/></a>
+<a class="photo_large__nav_list_item" href="/photo/1387222/n8518r-southwest-airlines-boeing-737-8h4wl?sid=15e3da94d8354202bd33cad5fff47064&amp;sc=5"><img alt="N8518R | Southwest Airlines | Boeing 737-8H4(WL)" src="https://t.plnspttrs.net/15859/1387222_33fc68edb0_t.jpg"/></a>
+<a class="photo_large__nav_list_item" href="/photo/1387221/n7836a-southwest-airlines-boeing-737-7l9wl?sid=15e3da94d8354202bd33cad5fff47064&amp;sc=6"><img alt="N7836A | Southwest Airlines | Boeing 737-7L9(WL)" src="https://t.plnspttrs.net/21469/1387221_48c1ef5f97_t.jpg"/></a>
+<a class="photo_large__nav_list_item" href="/photo/1387220/n957jb-jetblue-airways-airbus-a321-231wl?sid=15e3da94d8354202bd33cad5fff47064&amp;sc=7"><img alt="N957JB | JetBlue Airways | Airbus A321-231(WL)" src="https://t.plnspttrs.net/18555/1387220_c144d16e6b_t.jpg"/></a>
+<a class="photo_large__nav_list_item" href="/photo/1387219/n796jb-jetblue-airways-airbus-a320-232?sid=15e3da94d8354202bd33cad5fff47064&amp;sc=8"><img alt="N796JB | JetBlue Airways | Airbus A320-232" src="https://t.plnspttrs.net/31816/1387219_ecf55331bc_t.jpg"/></a>
+<a class="photo_large__nav_list_item" href="/photo/1387218/xu-919-lanmei-airlines-airbus-a321-231?sid=15e3da94d8354202bd33cad5fff47064&amp;sc=9"><img alt="XU-919 | Lanmei Airlines | Airbus A321-231" src="https://t.plnspttrs.net/46650/1387218_b9f907636b_t.jpg"/></a>
+</div> </div>
+</div>
+</footer>
+<footer class="page__footer page__footer_copyright">
+<div class="container950 text-center">
+<p>© Planespotters.net 2023. All rights reserved.</p>
+</div>
+</footer>
+<div class="loading-modal">Loading</div>
+<script>
+	var _paq = window._paq = window._paq || [];
+	/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	_paq.push(["setExcludedQueryParams", ["p","sort","dir"]]);
+	_paq.push(['trackPageView']);
+	_paq.push(['enableLinkTracking']);
+	(function() {
+		var u="//stats.planespotters.net/";
+		_paq.push(['setTrackerUrl', u+'matomo.php']);
+		_paq.push(['setSiteId', '1']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	})();
+</script>
+<script>
+</script>
+<script>
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+5B. Print out all cookies from (3).
+
+
+
+print(cookies1)
+{'__psuid': 'a2d0f929fb65e7d7c1657224f997d622', 'ps_sessid': 'VfWfJqdPfSjspprUs%2ClNPrUFIn'}
+
+print(cookies2)
+{'__psuid': 'a2d0f929fb65e7d7c1657224f997d622', 'ps_sessid': 'x6xNP-MTsq1Hc1tMO4VvX7-X7c'}
+
+
+
+
+
+
+
+
+
+
+
+
+5C. Print a boolean value to show your username is contained in the document in part (5)(a).
+
+
+
+
+print(bool(doc3.findAll(text = "lucytest")))
+True
+
+print(bool(doc3.select(":contains(lucytest)")))
+True
+
+
+

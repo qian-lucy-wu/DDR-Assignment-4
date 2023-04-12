@@ -1,0 +1,8 @@
+Prints the remaining time to screen (console)...
+
+
+
+Sale expires in 7 hours and 51 minutes
+
+
+07:50:06
